@@ -162,7 +162,7 @@ font-family: 'Playfair Display', serif;
           font-size: 36px;
      }
      &__all {
-          font-family: Inter;
+          font-family: 'Inter', sans-serif;
           font-style: normal;
           font-weight: 600;
           font-size: 17px;
@@ -239,5 +239,221 @@ font-family: 'Playfair Display', serif;
           background-color: #FB8F1D;
           border: 1px solid #FB8F1D;
           border-radius: 8px;
+     }
+}
+
+.testimonials {
+     margin-left: 51px;
+     padding-bottom: 285px;
+     display: flex;
+     &__text {
+          margin-right: 184px;
+     }
+     &__heading {
+          font-family: 'Playfair Display', serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 36px;
+          line-height: 50px;
+          margin-bottom: 145px;
+     }
+     &__stars {
+          margin-bottom: 30px;
+     }
+     &__feedback {
+          font-family: 'Mulish', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 36px;
+          max-width: 445px;
+          margin-bottom: 40px;
+     }
+     &__name {
+          font-family: 'Inter', sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 22px;
+          line-height: 48px;
+     }
+     &__title {
+          font-family: 'Inter', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 48px;
+          color: rgba(0, 0, 0, 0.85);
+     }
+     &__pic {
+          position: relative;
+     }
+     &__img {
+          max-width: 384px;
+          max-height: 491px;
+          border-radius: 8px;
+          margin-top: 110px;
+     }
+     &__arrows {
+          position: absolute;
+          background-color: #ffffff;
+          padding: 20px 0px 0px 30px;
+          bottom: 0px;
+          right: 0px;
+          border-radius: 8px 0px;
+          display: flex;
+          justify-content: flex-end;
+     }
+     &__arrow_left {
+          margin-right: 11px;
+     }
+     &__arrow_right {
+          margin-left: 11px;
+     }
+}
+
+.stories {
+     margin-left: 51px;
+     margin-bottom: 271px;
+     &__top {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 56px;
+     }
+     &__heading {
+          font-family: 'Playfair Display', serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 36px;
+          line-height: 50px;
+     }
+     &__all {
+          font-family: 'Inter', sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 17px;
+          line-height: 60px;
+          color: #FB8F1D;
+          &::after {
+               content: '>';
+               margin-left: 11px;
+          }
+     }
+     &__cards {
+          display: flex;
+          justify-content: space-between;
+     }
+     &__card {
+          &_img {
+               border-radius: 8px 8px 0px 0px;
+          }
+          &_heading {
+               font-family: 'Inter', sans-serif;
+               font-style: normal;
+               font-weight: bold;
+               font-size: 19px;
+               line-height: 30px;
+               margin-top: 13px;
+               margin-bottom: 13px;
+          }
+          &_text {
+               font-family: 'Inter', sans-serif;
+               font-style: normal;
+               font-weight: normal;
+               font-size: 15px;
+               line-height: 26px;
+               color: #7D7987;
+               margin-bottom: 23px;
+          }
+          &_more {
+               font-family: 'Inter', sans-serif;
+               font-style: normal;
+               font-weight: 600;
+               font-size: 15px;
+               line-height: 28px;
+               color: #FB8F1D;
+          }
+     }
+}
+
+.footer {
+     padding: 78px 105px 0px 191px;
+     background-color: #F9F9FB;
+     &__container {
+          display: flex;
+          margin-bottom: 81px;
+     }
+     &__copyright {
+          margin-right: 108px;
+     }
+     &__logo {
+          margin-bottom: 26px;
+     }
+     &__text {
+          font-family: 'Mulish', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 28px;
+          color: #848484;
+          margin-bottom: 55px;
+     }
+     &__subtext {
+          font-family: 'Mulish', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 17px;
+          line-height: 28px;
+          color: #848484;
+     }
+     &__menu {
+          display: flex;
+     }
+     &__links {
+          display: flex;
+          flex-direction: column;
+     }
+     &__links_1 {
+          display: flex;
+          flex-direction: column;
+          margin-right: 158px;
+     }
+     &__links_2 {
+          display: flex;
+          flex-direction: column;
+          margin-right: 158px;
+     }
+     &__section {
+          font-family: 'Mulish', sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 19px;
+          line-height: 60px;
+     }
+     &__link {
+          font-family: 'Mulish', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 38px;
+          color: #848484;
+          text-decoration: none;
+     }
+     &__line {
+          height: 0.6px;
+          color: #c4c4c4;
+          margin-top: 0px;
+          margin-bottom: 0px;
+     }
+     &__media {
+          padding-top: 33px;
+          padding-bottom: 33px;
+          display: flex;
+          justify-content: center;
+     }
+     &__social {
+          margin-right: 35px;
+          &:nth-child(5) {
+               margin-right: 0px;
+          }
      }
 }
